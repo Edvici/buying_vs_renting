@@ -13,4 +13,8 @@ Streamlit app (JK) (review deur VZ)
 Parameters (Edvicii)
 - vra vir Paul
 
+- Purchase Price
+- Transfer and Legal Costs
+- tax implications
+
 Navorsing oor huidige git repos (JJ)
