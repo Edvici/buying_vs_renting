@@ -2,8 +2,8 @@
 The chat-'n-bietjie-bal group will attempt to collaborate and build a model to compare the ROI for renting vs buying a house
 
 Goal:
-model ROI vs renting
-identifiseer 'n great deal
+1. model ROI vs renting
+2. identifiseer 'n great deal
 
 
 Streamlit app (JK) (review deur VZ)
