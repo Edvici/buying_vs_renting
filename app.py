@@ -1,37 +1,33 @@
 import streamlit as st
+import tabs.home as home
+import tabs.JK as JK
+import tabs.JJ as JJ
+import tabs.VZV as VZV
+import tabs.ER as ER
 
 # Set page title and layout
 st.set_page_config(page_title="Buying vs Renting", layout="wide")
 
 # Sidebar for navigation
 st.sidebar.title("Navigation")
-options = st.sidebar.radio("Go to", ["Home", "Jacobus K", "Jacobus J", "Van Zyl", "Eddie"])
+options = st.sidebar.radio("Go to", ["Home", "JK", "JJ", "VZV", "ER"])
 
 # Home Screen
 if options == "Home":
-    st.title("Welcome to the Buying vs Renting App")
-    st.write("This is the home page. Use the sidebar to navigate through the tabs.")
+    home.show_home()
 
 # Tab 1
-elif options == "Jacobus K":
-    st.title("Tab 1")
-    st.write("This is Tab 1 content.")
-    # You can add more components here
+elif options == "JK":
+    JK.show_home()
 
 # Tab 2
-elif options == "Jacobus J":
-    st.title("Tab 2")
-    st.write("This is Tab 2 content.")
-    # You can add more components here
+elif options == "JJ":
+    JJ.show_home()
 
 # Tab 3
-elif options == "Van Zyl":
-    st.title("Tab 2")
-    st.write("This is Tab 2 content.")
-    # You can add more components here
+elif options == "VZV":
+    VZV.show_home()
 
 # Tab 4
-elif options == "Eddie":
-    st.title("Tab 2")
-    st.write("This is Tab 2 content.")
-    # You can add more components here
+elif options == "ER":
+    ER.show_home()
